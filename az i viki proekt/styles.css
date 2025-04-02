@@ -13,6 +13,9 @@ display: block;
 
 
 
+
+
+
 :root {
   --color-1: cyan; 
   --color-2: #002aff; 
@@ -23,9 +26,12 @@ body {
   font-family: "Sofia Sans", sans-serif;
   font-size: large;
 }
+strong{
+  color: #002aff;
+}
 .Header {
   position: relative;
-  height: 90vh;
+  height: 80vh;
   display: block; 
 }
 .Header-background {
@@ -120,7 +126,7 @@ body {
 }
 .Iphone {
   display: inline-block;
-  background: #fff;
+  background: #c8c5c5;
   padding: 4rem 0.6rem 0rem;
   border-radius: 2rem;
   box-shadow: -1rem 1.75rem 2rem -0.4rem rgba(50,0,100,0.1), -0.2rem 0.2rem 0.5rem rgba(50,0,100,0.05), inset 0.9rem -0.9rem 0.5rem -0.4rem rgba(50,0,100,0.1);
