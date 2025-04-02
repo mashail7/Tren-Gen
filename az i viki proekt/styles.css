@@ -15,9 +15,9 @@ display: block;
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 :root {
   --color-1: cyan; 
-  --color-2: #0091ff; 
+  --color-2: #002aff; 
   --color-3: cyan; 
-  --color-4: #0091ff; 
+  --color-4: #002aff; 
 }
 body {
   font-family: 'Varela Round', sans-serif;
@@ -35,7 +35,7 @@ body {
   height: 100%;
   background: linear-gradient(19deg, var(--color-1), var(--color-2));
   transform-origin: 0px 0px;
-  transform: skewY(-10deg);
+  transform: skewY(-8deg);
   overflow: hidden;
   z-index: -1;
 }
@@ -122,7 +122,7 @@ body {
   background: #fff;
   padding: 4rem 0.6rem 0rem;
   border-radius: 2rem;
-  box-shadow: -1rem 1.75rem 2rem -0.4rem rgba(50,0,100,0.1), -0.2rem 0.2rem 0.5rem rgba(50,0,100,0.05), inset 0.5rem -0.5rem 0.5rem -0.4rem rgba(50,0,100,0.1);
+  box-shadow: -1rem 1.75rem 2rem -0.4rem rgba(50,0,100,0.1), -0.2rem 0.2rem 0.5rem rgba(50,0,100,0.05), inset 0.9rem -0.9rem 0.5rem -0.4rem rgba(50,0,100,0.1);
   text-align: center;
 }
 
