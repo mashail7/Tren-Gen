@@ -12,7 +12,7 @@ display: block;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 :root {
   --color-1: cyan; 
   --color-2: #002aff; 
@@ -20,11 +20,12 @@ display: block;
   --color-4: #002aff; 
 }
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: large;
 }
 .Header {
   position: relative;
-  height: 80vh;
+  height: 90vh;
   display: block; 
 }
 .Header-background {
@@ -65,8 +66,8 @@ body {
 @media (min-width: 58rem) {
   .Header-content {
     text-align: left;
-    padding: 10rem 4rem;
-    max-width: 54rem;
+    padding: 10rem 14rem;
+    max-width: 74rem;
     display: flex;
     justify-content: space-between;
   }
